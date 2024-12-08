@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section id="home" className="pt-36">
+      <section id="home">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
@@ -45,6 +45,7 @@ export default function Home() {
                   width={517}
                   height={483}
                   alt="Achmad Fauzi"
+                  priority
                   className="mx-auto max-w-full"
                 />
                 <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
@@ -67,7 +68,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="pt-36 pb-32">
+      <section id="about" className="pt-36">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10">
@@ -168,12 +169,115 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="experience">
+      <section id="experiences" className="pt-20 pb-32">
         <div className="container">
-          <div className="flex flex-col">
-            <div className="w-full">Aido</div>
-            <div className="w-full">PT United Tractors Tbk</div>
-            <div className="w-full">UDDP PMI</div>
+          <div className="flex flex-col px-4">
+            <div className="w-full">
+              <p className="font-bold uppercase text-3xl mb-3">
+                <span className="bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent">
+                  Experiences
+                </span>
+              </p>
+            </div>
+            <div className="flex flex-wrap mb-3">
+              <div className="flex w-full justify-between">
+                <div className="flex">
+                  <p className="font-bold text-sm lg:text-lg">
+                    Aidohealth{" "}
+                    <span className="font-medium text-slate-500">
+                      - Jakarta ( On-site )
+                    </span>
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <span className="font-bold text-sm lg:text-lg ">
+                    Jan 2024 - Apr 2024
+                  </span>
+                </div>
+              </div>
+              <p className="font-medium text-sm md:text-base text-slate-500 mb-1">
+                Web Developer Intern
+              </p>
+              <p className="text-justify text-sm md:text-base">
+                Developed web-based internal training applications as a{" "}
+                <span className="bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent font-bold">
+                  Full-Stack Engineer
+                </span>{" "}
+                using PHP with the Laravel framework, designing and implementing
+                database structures with PostgreSQL. Integrated a photo upload
+                feature with image storage on AWS S3 and managed code
+                repositories using Bitbucket, performing regular updates and
+                resolving git conflicts efficiently.
+              </p>
+            </div>
+            <div className="flex flex-wrap mb-3">
+              <div className="flex w-full justify-between">
+                <div className="flex">
+                  <p className="font-bold text-sm lg:text-lg">
+                    PT United Tractors Tbk{" "}
+                    <span className="font-medium text-slate-500">
+                      - Jakarta ( On-site )
+                    </span>
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <span className="font-bold text-sm lg:text-lg ">
+                    Aug 2022 - Dec 2022
+                  </span>
+                </div>
+              </div>
+              <p className="font-medium text-sm md:text-base text-slate-500 mb-1">
+                IT Developer Intern
+              </p>
+              <p className="text-justify text-sm md:text-base">
+                Created a web-based asset inventory management system with 5
+                core features{" "}
+                <span className="text-slate-500">
+                  ( inventory, request, borrowing, loss, scrap, and assets
+                  reporting )
+                </span>{" "}
+                as a{" "}
+                <span className="bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent font-bold">
+                  Backend Engineer
+                </span>{" "}
+                using PHP with the CodeIgniter 4 framework, leveraging
+                PHPMyAdmin for database management. Built a large-scale web
+                service application serving company users across Indonesia and
+                managed code repositories using GitLab to ensure efficient
+                version control and collaboration.
+              </p>
+            </div>
+            <div className="flex flex-wrap mb-3">
+              <div className="flex w-full justify-between">
+                <div className="flex">
+                  <p className="font-bold text-sm lg:text-lg">
+                    UDDP PMI{" "}
+                    <span className="font-medium text-slate-500">
+                      - Jakarta ( On-site )
+                    </span>
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <span className="font-bold text-sm lg:text-lg ">
+                    Jan 2022 - Apr 2022
+                  </span>
+                </div>
+              </div>
+              <p className="font-medium text-sm md:text-basee text-slate-500 mb-1">
+                Web Developer Intern
+              </p>
+              <p className="text-justify text-sm md:text-base">
+                Created a web-based soft skill training registration system as a{" "}
+                <span className="bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent font-bold">
+                  Full-stack Engineer
+                </span>{" "}
+                , designing the application using Figma. Developed the backend
+                with PHP and the CodeIgniter 4 framework, while employing
+                Bootstrap 4 for the frontend. Managed the database with
+                PHPMyAdmin and utilized GitLab for version control and
+                collaboration with supervisors.
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -63,14 +63,14 @@ export default function Navbar() {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="#" legacyBehavior passHref>
+                  <Link href="#about" legacyBehavior passHref>
                     <NavigationMenuLink className="group text-primary inline-flex h-9 w-max items-center justify-center rounded-md bg-color px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground">
                       About
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="#" legacyBehavior passHref>
+                  <Link href="#experiences" legacyBehavior passHref>
                     <NavigationMenuLink className="group text-primary inline-flex h-9 w-max items-center justify-center rounded-md bg-color px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground">
                       Experiences
                     </NavigationMenuLink>
